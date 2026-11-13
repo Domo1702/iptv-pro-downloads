@@ -1,11 +1,7 @@
 # IPTV Pro for Windows
 
-IPTV Pro is a Windows 11 x64 player for your own authorised Live TV, movie and series sources.
+1. Install **VLC 3.0.24 or later 3.x, Windows 64-bit**, from [VideoLAN](https://www.videolan.org/vlc/download-windows.html).
+2. Download and run the **Setup.exe** from [Releases](https://github.com/Domo1702/iptv-pro-downloads/releases).
+3. Open IPTV Pro and add your own authorised M3U or Xtream source.
 
-**Public installer status: not released yet.** The updater is implemented, but the bundled native playback runtime still requires a complete license and corresponding-source review before its installer can be redistributed. No public binary is offered until that review is complete.
-
-Approved installers will appear on the [Releases page](https://github.com/Domo1702/iptv-pro-downloads/releases). In the app, use **Settings → Updates** to check, download and install a newer release. Updates preserve your local sources, favourites and preferences. The first version containing the updater must be installed manually.
-
-This repository contains downloads, signed update metadata and distribution notices only. IPTV Pro's application source remains private. It contains no playlists, provider credentials or bundled TV subscriptions. Please do not post passwords or complete provider/stream URLs in issues.
-
-Preview installers are not Authenticode signed. Windows can display an unknown-publisher warning. Feed signatures and installer SHA-256 verification do not establish Microsoft publisher identity.
+Windows 11 x64 is required. The installer includes .NET but **does not include VLC**. Use Settings → Updates in IPTV Pro for app updates; update VLC separately. Application source stays private. No playlists or subscriptions are included. Preview installers are unsigned and Windows may show an unknown-publisher warning. Third-party notices and corresponding binding source accompany each release. Please do not post passwords or full provider URLs in issues.
